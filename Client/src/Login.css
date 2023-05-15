@@ -1,0 +1,159 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.parent-login {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("./images/back-img.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* opacity: 0.8; */
+}
+
+.child1-border {
+  margin-top: 10%;
+  margin-left: 25%;
+  /* border: 3px solid green; */
+  width: 30%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(250, 249, 249);
+  opacity: 0.6;
+  border-radius: 25px;
+}
+
+.child2-head {
+  /* border: 3px solid red; */
+  width: 70%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.child2-head h1 {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+.child2-head p {
+  color: black;
+  font-weight: bold;
+}
+
+.err-display p {
+  color: brown;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+form {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.child3-details {
+  /* border: 2px solid black; */
+  width: 70%;
+  height: 20%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.child3-label {
+  margin: 1%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.child3-email {
+  background-color: white;
+  border: 2px solid grey;
+  height: 50%;
+  width: 90%;
+  border-radius: 4px;
+  margin: 1%;
+}
+
+.child4-details {
+  /* border: 2px solid black; */
+  width: 70%;
+  height: 20%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.child4-label {
+  margin: 0.5%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.child4-password {
+  background-color: white;
+  border: 2px solid grey;
+  height: 50%;
+  width: 90%;
+  border-radius: 4px;
+  margin: 1%;
+}
+
+.child5-details {
+  /* border: 2px solid black; */
+  width: 70%;
+  height: 10%;
+  display: flex;
+  margin: 1%;
+}
+
+.child5-btn {
+  background-color: brown;
+  border: 2px solid brown;
+  border-radius: 4px;
+  width: 90%;
+  height: 100%;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 1%;
+  font-size: 1.2rem;
+}
+
+.child5-btn:hover {
+  background-color: rgb(124, 41, 41);
+}
+
+.child6 {
+  margin: 2%;
+}
+
+span {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: brown;
+  font-size: 1em;
+}
