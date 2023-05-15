@@ -1,1 +1,1 @@
-export const API_URL_USER = "http://localhost:9000/api/v1/users";
+export const API_URL_USER = "https://bhagwad-gita-1j5d.vercel.app/api/v1/users";

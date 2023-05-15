@@ -11,6 +11,9 @@ const app = express();
 app.use(express.json()); // pass incoming data
 
 // cors middleware
+const corsOption = {
+  origin: "http://localhost:3000",
+};
 app.use(cors());
 
 // post/api/v1/users/register
