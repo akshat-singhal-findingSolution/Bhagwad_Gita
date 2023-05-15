@@ -5,6 +5,7 @@ import img16 from "../images/img16.jpg";
 import "../ChapterSyle/Chapter1.css";
 import axios from "axios";
 import parse from "html-react-parser";
+import { API_URL_SHLOK } from "../utils/apiURL";
 
 const Chapter13 = () => {
   const [alpha, setAlpha] = useState([[]]);
@@ -12,9 +13,7 @@ const Chapter13 = () => {
   useEffect(() => {
     const shloka = async () => {
       try {
-        const data = await axios.get(
-          "http://localhost:9000/api/gita/shloka?chapter=13"
-        );
+        const data = await axios.get(`${API_URL_SHLOK}?chapter=13`);
         // console.log(data.data.shlokas[1][0]);
         setAlpha(data.data.shlok);
         // console.log(alpha);
